@@ -1,0 +1,4 @@
+Item Code,Item Name,Item Group,Default Unit of Measure,Description,Brand,Disabled,Maintain Stock,Standard Selling Rate,Opening Stock,Valuation Rate
+TEA,Duplicate Tea,,,,,,yes,40,,
+MUFFIN,Muffin,Drinks,Bottle,,Nestle,maybe,yes,abc,,
+,No code,,,,,,no,,1,

@@ -1,0 +1,4 @@
+Item Code,Item Name,Item Group,Default Unit of Measure,Description,Brand,Disabled,Maintain Stock,Standard Selling Rate,Opening Stock,Valuation Rate
+TEA,Green Tea,,,,,,yes,40,,
+CAKE,Chocolate Cake,,,,,,yes,120,,
+DELIVERY,Delivery,,,,,,yes,,1,5
