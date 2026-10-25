@@ -1,0 +1,302 @@
+{
+  "pages": 47,
+  "words": 11663,
+  "toc_count": 1,
+  "rendered_pages": [
+    1,
+    2,
+    4,
+    7,
+    12,
+    13,
+    15,
+    17,
+    18,
+    47
+  ],
+  "render_error": null,
+  "page_texts": [
+    {
+      "page": 1,
+      "characters": 319,
+      "start": "MERCHANT\rUser Manual\rFor store owners and employees\rPhone and tablet edition\rSet up your store. Manage products and staff.\u000bSell, receive stock and review your records.\rBased on cur",
+      "end": "ck and review your records.\rBased on current-system-features.md\u000bSource reviewed: 25 October 2026\u000bDocument version: 1.0\rAn editable operating guide covering all 22 source sections.\r"
+    },
+    {
+      "page": 2,
+      "characters": 1709,
+      "start": "Contents\r1. Getting started\t4\r1.1 About this manual\t4\r1.2 Sign in and read the legal pages\t4\r1.3 Find your way around\t4\r1.4 A first-sale checklist\t5\r2. Create and manage stores\t6\r2",
+      "end": " Global Defaults\t33\r9.4 Set time zone and number rules\t33\r9.5 Format the default currency\t33\r10. Configure accounting, payments and taxes\t35\r10.1 Maintain the Chart of Accounts\t35\r"
+    },
+    {
+      "page": 3,
+      "characters": 1035,
+      "start": "10.2 Control accounting behavior and frozen periods\t35\r10.3 Add payment methods\t35\r10.4 Create and check a sales tax template\t36\r10.5 Define item-specific tax rates\t37\r10.6 Create ",
+      "end": "\t43\r13.2 Sign out or find account deletion\t43\r14. Troubleshooting and reference\t44\r14.1 Common problems\t44\r14.2 What works offline\t45\r14.3 Glossary\t45\r14.4 Source and coverage\t46\r\r"
+    },
+    {
+      "page": 4,
+      "characters": 2341,
+      "start": "1. Getting started\r1.1 About this manual\rMerchant helps you manage a store, its products, sales, stock and accounting records. This manual is for store owners and employees using t",
+      "end": "s the Cart page\r\u0007Items and Cart appear side by side\r\u0007\r\u0007Forms and lists\r\u0007A selection often opens another page or a bottom sheet\r\u0007Some forms open alongside a list or in a dialog\r\u0007\r\u0007\r"
+    },
+    {
+      "page": 5,
+      "characters": 1715,
+      "start": "1. On the main Home tab, tap a store card to open it.\r2. On a phone, tap Menu. On a tablet, use the visible side rail.\r3. Tap the destination you need: Home, Dashboard, Sell, Stock",
+      "end": ").\rBefore operational use: Check the store time zone before the first sale. If you want to learn without saving transactions, use Store Guide and its practice store (section 8.2).\r"
+    },
+    {
+      "page": 6,
+      "characters": 1053,
+      "start": "2. Create and manage stores\r2.1 Create a store\rWhere: Main Home tab > Create New Store.\r1. Tap Create New Store. Step 1, Your store, opens with the title Name your store.\r2. Enter ",
+      "end": " from step 2 to step 1 and keeps the entered fields. The back arrow in the dark bar leaves the creation page. You can edit store details later in Setup > Store & Calendar > Store.\r"
+    },
+    {
+      "page": 7,
+      "characters": 2812,
+      "start": "2.2 Choose or change a store level\rWho: Only the owner chooses or changes a store's level. Levels simplify menus and item forms; permissions still determine what a person can do.\rL",
+      "end": "level recreates it.\r2.3 Delete a store\rWho: The owner. Employee access does not allow store deletion.\rWarning: Deleting a store removes everything kept in it and cannot be undone.\r"
+    },
+    {
+      "page": 8,
+      "characters": 383,
+      "start": "1. Return to the main Home tab.\r2. To delete one store, tap its red delete icon, type the store name, then tap Delete.\r3. To delete several, long-press an owned store card, tap the",
+      "end": "d delete action, type DELETE, then tap Delete.\rUse Select all during multiple selection if appropriate. Back or X ends selection. A store owned by someone else cannot be selected.\r"
+    },
+    {
+      "page": 9,
+      "characters": 1230,
+      "start": "3. Add products and selling prices\r3.1 Create or edit an item\rWhere: Stock > Items & Pricing > Items. Who: Owner or a person with Manage Items can manage items. Other permissions m",
+      "end": "iscounts and Item Tax\r\u0007\r\u0007\rResult: The item appears in the Items list. A register offers it according to the profile's restrictions. Stock Balance shows its stock where applicable.\r"
+    },
+    {
+      "page": 10,
+      "characters": 1493,
+      "start": "/\rFigure 3. New Item form with the main item details and selling-price fields.\rRules: An item code cannot change after saving; a barcode can. Hidden fields still receive defaults: ",
+      "end": "d information where needed.\r6. Tap Save to save the item.\rResult: A useful label picture closes the scanner and fills applicable item fields. Scanning alone does not save an item.\r"
+    },
+    {
+      "page": 11,
+      "characters": 1809,
+      "start": "Field\r\u0007What the scanner can fill\r\u0007\r\u0007BARCODE\r\u0007The barcode read; a new scan replaces the existing barcode\r\u0007\r\u0007ITEM CODE\r\u0007The barcode on a new item only when the code is empty and manu",
+      "end": "Result: The list shows the item, rate, price list and dates. A register uses the price according to its price-list configuration. A price belongs to one item, price list and unit.\r"
+    },
+    {
+      "page": 12,
+      "characters": 1032,
+      "start": "/\rFigure 4. Saved item prices listed by item, price list, unit, rate and validity.\r3.4 Import items from CSV\rWhere: Stock > Items & Pricing > Import Items. Who: Owner or Manage Ite",
+      "end": ", Disabled, Maintain Stock and Standard Selling Rate; use the downloaded template for the full set. There is no Barcode column. Add barcodes on individual item pages after import.\r"
+    },
+    {
+      "page": 13,
+      "characters": 73,
+      "start": "/\rFigure 5. Import Items field guide shown before a CSV file is selected.\r",
+      "end": "/\rFigure 5. Import Items field guide shown before a CSV file is selected.\r"
+    },
+    {
+      "page": 14,
+      "characters": 1368,
+      "start": "4. Sell, take payments and close a shift\r4.1 Open a session\rWhere: Sell. Who: Open/Close Register opens and closes your own session; Process Sales is needed to complete sales. The ",
+      "end": " the barcode scanner described in section 4.4.\r4. On a phone, tap Cart \u00b7 n items \u00b7 total at the bottom to open the Cart. On a tablet, review the Cart on the right of the Register.\r"
+    },
+    {
+      "page": 15,
+      "characters": 291,
+      "start": "Result: Selected items appear as cart lines. The profile determines which items the register offers. An empty tablet cart says The cart is empty. Tap an item to add it. On a phone,",
+      "end": "blet cart says The cart is empty. Tap an item to add it. On a phone, return to the Register to add an item.\r/\rFigure 7. Tablet Register with the item list beside the current Cart.\r"
+    },
+    {
+      "page": 16,
+      "characters": 815,
+      "start": "4.3 Review the Cart and complete payment\r1. Check each line's quantity, unit and rate.\r2. Where permitted, apply a line or whole-sale discount as described below.\r3. Review Net Tot",
+      "end": " receipt opens automatically. On a tablet, the Register remains ready for the next sale, the cart empties and payment amounts reset; Back from the receipt returns to the Register.\r"
+    },
+    {
+      "page": 17,
+      "characters": 1706,
+      "start": "/\rFigure 9. Completed order receipt with totals and ledger links.\rStock check: A shortage can stop the sale when negative stock is disallowed. Level 1 enables negative stock, so a ",
+      "end": "ches the opened store's loaded items by barcode first, then matching item code. It works offline with those already-loaded items. Unlike Scan Product, it has no Read Label action.\r"
+    },
+    {
+      "page": 18,
+      "characters": 1483,
+      "start": "If an item is not added: No item has the barcode \u2026 means no match was found. \u2026 isn't sold at this register. can mean the item is disabled, outside the profile's item groups, or out",
+      "end": "eturn.\rResult: The return receipt opens. Orders identifies the record as Return against the original sale. Only payment methods marked ALLOW IN RETURNS may be used for the refund.\r"
+    },
+    {
+      "page": 19,
+      "characters": 1329,
+      "start": "/\rFigure 11. Refund receipt showing the returned item and cash refund.\r4.7 Cancel a sale\rWho: Void Transactions. A sale that already has a return cannot be voided.\r1. Open the sale",
+      "end": "ssion closes and its closing record is available. Expected cash equals opening cash plus the session's payments, less change given. Review any difference against the actual count.\r"
+    },
+    {
+      "page": 20,
+      "characters": 431,
+      "start": "/\rFigure 12. POS Closing Entry with expected cash, the count and the difference.\rPOS Opening Entries lists sessions with profile, date, opening amount and OPEN or CLOSED status. PO",
+      "end": "d. Tap a row to inspect it. The source establishes the Close Any Register permission but does not give a separate detailed navigation sequence for closing somebody else's session.\r"
+    },
+    {
+      "page": 21,
+      "characters": 2563,
+      "start": "5. Receive, count and review stock\r5.1 Record a stock movement\rWhere: Stock > Stock Transactions > Stock Entries. Who: Receive Shipments allows stock entries and submission; Adjust",
+      "end": "esult: You can trace the stock balance back to sales, returns and stock documents. The source does not enumerate this report's filter fields; use the options displayed in the app.\r"
+    },
+    {
+      "page": 22,
+      "characters": 1130,
+      "start": "6. Read business reports\r6.1 Use the Dashboard\rWhere: Dashboard in the store menu. Owners can view it. For employees, access comes from View Sales, View Shift Totals, Close Any Reg",
+      "end": "blet, the summary cards occupy one row, with report blocks arranged according to orientation and available space. A missing block can reflect permissions rather than missing data.\r"
+    },
+    {
+      "page": 23,
+      "characters": 801,
+      "start": "/\rFigure 13. Tablet Dashboard with summary cards, sales chart and top-selling items.\r6.2 Read the General Ledger\rWhere: Accounts > Reports > General Ledger. Who: View General Ledge",
+      "end": "al postings depend on the transaction and settings, including Perpetual Inventory, taxes, discounts and payment accounts; do not use a fixed four-entry count as a universal check.\r"
+    },
+    {
+      "page": 24,
+      "characters": 2377,
+      "start": "7. Invite staff and manage access\r7.1 Create and share access codes\rWhere: Access Codes tab on a phone, or its key icon in the Home header on a tablet. Who: Store owner. Employees,",
+      "end": "p also identifies an existing membership or pending request. A person who owns no store sees You don't own a store in access-code administration, with an Enter Access Code button.\r"
+    },
+    {
+      "page": 25,
+      "characters": 2915,
+      "start": "7.3 Approve, decline or revoke access\rWho: Owner of the store.\r1. In Access Codes > Requests, use Pending, Approved, Declined or All to locate a request.\r2. Open it and review the ",
+      "end": "ier\r\u0007Process Sales; Open/Close Register\r\u0007\r\u0007Stock Clerk\r\u0007View Stock Levels; Receive Shipments\r\u0007\r\u0007Store Manager\r\u0007All twenty permissions; owner-only administration still excluded\r\u0007\r\u0007\r"
+    },
+    {
+      "page": 26,
+      "characters": 1468,
+      "start": "1. Tap New Role, or open an existing role.\r2. In General, enter Role Name, Description and Colour. Thirteen colours are available.\r3. In Permissions, select the required permission",
+      "end": "se Register and complete a sale; requires Open/Close Register\r\u0007\r\u0007Sales & POS\r\u0007Apply Discounts\r\u0007Change prices or give discounts where the profile permits; requires Process Sales\r\u0007\r\u0007"
+    },
+    {
+      "page": 27,
+      "characters": 1937,
+      "start": "Sales & POS\r\u0007Process Refunds\r\u0007Use Return on a sale; requires Open/Close Register\r\u0007\r\u0007Sales & POS\r\u0007Void Transactions\r\u0007Use Cancel on an eligible sale\r\u0007\r\u0007Sales & POS\r\u0007View Sales\r\u0007Order",
+      "end": "ot.\r3. Tap a row. Access code used opens Access Codes > Requests; Request approved opens the store.\r4. Use Mark all as read when appropriate. Back returns to the preceding screen.\r"
+    },
+    {
+      "page": 28,
+      "characters": 292,
+      "start": "Result: You can follow access-related updates, including approval, decline and removal. Notifications do not currently appear on the lock screen. The app checks every minute while ",
+      "end": "ently appear on the lock screen. The app checks every minute while open and when opened again. On a tablet, notifications use a readable column rather than the whole screen width.\r"
+    },
+    {
+      "page": 29,
+      "characters": 1091,
+      "start": "8. Customize your menu and practise\r8.1 Show or hide your screens\rWhere: Features, the last store-menu row, available to everyone. Changes affect only your menu for this store.\r1. ",
+      "end": "rols the whole screen; Employees is still owner-only\r\u0007\r\u0007Sell\r\u0007Sessions & Register remains core when the person can open sessions; Orders and opening/closing lists can be hidden\r\u0007\r\u0007"
+    },
+    {
+      "page": 30,
+      "characters": 2152,
+      "start": "Stock\r\u0007Items remains core with Stock; other stock pages can be hidden\r\u0007\r\u0007Accounts\r\u0007No core page; hiding General Ledger hides Accounts\r\u0007\r\u0007Setup\r\u0007No core page; hiding the last setup ",
+      "end": "orks offline, saves nothing and resets when you leave. Android Back goes back through practice pages before leaving. A guided step advances only when its required control is used.\r"
+    },
+    {
+      "page": 31,
+      "characters": 1103,
+      "start": "/\rFigure 16. Store Guide role picker for choosing a role to practise.\rWork area\r\u0007Practice roles\r\u0007\r\u0007Selling & Cash\r\u0007Cashier; All-around Helper; Senior / Head Cashier; Returns / Cust",
+      "end": "nd owner administration. The practice store enforces its demonstrated restrictions: for example, a sale with a return cannot be voided, and a Stock Clerk cannot cancel a delivery.\r"
+    },
+    {
+      "page": 32,
+      "characters": 1151,
+      "start": "9. Configure store details, dates and money\r9.1 Change store details and default accounts\rWhere: Setup > Store & Calendar > Store. Who: Owner or a user with the relevant setup perm",
+      "end": "oks. A warehouse with no applicable warehouse account falls back to DEFAULT INVENTORY ACCOUNT.\r/\rFigure 17. Store settings with fallback accounts and perpetual-inventory controls.\r"
+    },
+    {
+      "page": 33,
+      "characters": 2801,
+      "start": "Validation: Default accounts must be enabled ledgers of the correct type; invalid selections prevent saving. An account used as a store default cannot be deleted. The source direct",
+      "end": "VALUE if needed, and choose NUMBER FORMAT.\r4. Inspect SAMPLE RECEIPT TOTAL, which updates as you type and includes Grand Total, Rounded Total and the amount in words.\r5. Tap Save.\r"
+    },
+    {
+      "page": 34,
+      "characters": 252,
+      "start": "Result: Currency formatting and amount-in-words presentation follow these values. The smallest currency fraction controls cash rounding; if it is empty, the rounded total is a whol",
+      "end": " values. The smallest currency fraction controls cash rounding; if it is empty, the rounded total is a whole amount. Global Defaults can hide the rounded total or amount in words.\r"
+    },
+    {
+      "page": 35,
+      "characters": 2200,
+      "start": "10. Configure accounting, payments and taxes\r10.1 Maintain the Chart of Accounts\rWhere: Setup > Accounting > Chart of Accounts. Use the applicable accounting setup permission or th",
+      "end": "tup > Payments > Modes of Payment.\r1. Tap New Mode of Payment.\r2. Enter Name and select Type: Cash, Bank, General or Phone.\r3. Select Default Account and set Enabled.\r4. Tap Save.\r"
+    },
+    {
+      "page": 36,
+      "characters": 1909,
+      "start": "Result: The mode can be selected in POS Profiles and shown on sale payment lines. A Cash mode needs a Cash ledger; a Bank mode needs a Bank ledger.\r/\rFigure 18. Modes of Payment li",
+      "end": "ibes a new store's Philippines Tax with a VAT @ 12 row, not selected as the default. These are documented app defaults, not advice about which tax treatment applies to a business.\r"
+    },
+    {
+      "page": 37,
+      "characters": 1563,
+      "start": "10.5 Define item-specific tax rates\rWhere: Setup > Taxes > Item Tax Templates.\r1. Tap New Item Tax Template and enter Title.\r2. Add or edit rows using Tax and Tax Rate. Use Not App",
+      "end": "es not name one. An empty condition matches every sale. More matching conditions take precedence, followed by priority and then the older rule. New stores start without tax rules.\r"
+    },
+    {
+      "page": 38,
+      "characters": 2236,
+      "start": "11. Configure stock, selling and registers\r11.1 Set up warehouses\rWhere: Setup > Stock > Warehouses. Who: Owner or Stock Setup for this and the other stock-setup pages in sections ",
+      "end": "prices used by Item Prices, Selling Settings, brands and item groups. Create the actual item rates in Stock > Item Prices. The source's initial list is enabled Standard Selling in "
+    },
+    {
+      "page": 39,
+      "characters": 2590,
+      "start": "PHP. The source names Price Not UOM Dependent but does not give a detailed rule for its price calculations.\r11.5 Create brands and their defaults\rWhere: Setup > Stock > Brands.\r1. ",
+      "end": "d permitted price editing. The three switches initially start off. Permission and profile restrictions still apply; enabling a setting does not grant Apply Discounts to a cashier.\r"
+    },
+    {
+      "page": 40,
+      "characters": 2358,
+      "start": "11.9 Create automatic pricing rules\rWhere: Setup > Selling > Pricing Rules.\r1. Tap New Pricing Rule and enter TITLE.\r2. Set APPLY ON to Item Code, Item Group or Brand, and add the ",
+      "end": "fies Main Register creation at Levels 1\u20134 when none exists. For those levels, inspect or edit the existing profile rather than assuming every new store needs one created manually.\r"
+    },
+    {
+      "page": 41,
+      "characters": 1438,
+      "start": "12. Set document numbers and receipt appearance\r12.1 Configure document naming\rWhere: Setup > Naming & Printing > Document Naming Settings. Who: Owner or Naming & Printing, also us",
+      "end": "itial POS Receipt uses 80mm paper. The sample is a made-up sale and is intended to help check the layout.\r/\rFigure 19. Print Formats list with POS Receipt selected as the default.\r"
+    },
+    {
+      "page": 42,
+      "characters": 947,
+      "start": "12.3 Create a letter head\rWhere: Setup > Naming & Printing > Letter Heads.\r1. Tap New Letter Head.\r2. Enter Name, a multiline Header and Footer.\r3. Set Default Letter Head and Disa",
+      "end": "ounded totals and the amount in words, use Global Defaults; for symbols and cash rounding, use Currency. POS Profiles can select the format and letter head used by their register.\r"
+    },
+    {
+      "page": 43,
+      "characters": 1250,
+      "start": "13. Manage your account\r13.1 Open Account and change appearance\rWhere: Account tab on a phone, or the account icon in the Home header on a tablet.\r1. Open Account to see your photo",
+      "end": "anual therefore documents its location without presenting an unsupported deletion procedure. Store deletion is separately documented in section 2.3 and is explicitly irreversible.\r"
+    },
+    {
+      "page": 44,
+      "characters": 2277,
+      "start": "14. Troubleshooting and reference\r14.1 Common problems\rProblem\r\u0007What to check or do\r\u0007\r\u0007A screen or page is missing\r\u0007Confirm the open store, your permissions, its store level and yo",
+      "end": "t have duplicate item barcodes.\r\u0007\r\u0007An import fails\r\u0007Correct every reported row, use CSV and keep the file within 500 items. Add barcodes separately; there is no Barcode column.\r\u0007\r\u0007"
+    },
+    {
+      "page": 45,
+      "characters": 2363,
+      "start": "A posting date is refused\r\u0007Check that an enabled fiscal year contains the date and that Accounts Frozen Till does not block it for the assigned role.\r\u0007\r\u0007A return cannot proceed\r\u0007Ch",
+      "end": "he source does not provide a general offline transaction guarantee.\r14.3 Glossary\rTerm\r\u0007Meaning in this manual\r\u0007\r\u0007Store\r\u0007One business and its separate records, without branches\r\u0007\r\u0007"
+    },
+    {
+      "page": 46,
+      "characters": 1860,
+      "start": "Store level\r\u0007A preset menu and item-form complexity, with specified automatic setup\r\u0007\r\u0007Feature visibility\r\u0007A person's choice of which permitted screens/pages appear in a store menu",
+      "end": "e from that source. Where a general statement has a more specific exception, the instructions include the exception\u2014for example, Main Register creation and Level 1 negative stock.\r"
+    },
+    {
+      "page": 47,
+      "characters": 1125,
+      "start": "Source section\r\u0007Manual location\r\u0007\r\u00071. Store Creation Form\r\u0007Chapter 2\r\u0007\r\u00072. Store & Calendar\r\u0007Chapter 9\r\u0007\r\u00073. Defaults & Money\r\u0007Chapter 9\r\u0007\r\u00074. Accounting\r\u0007Chapter 10\r\u0007\r\u00075. Payments",
+      "end": "over every permission, store level or transaction state. Procedures or behavior not established by the source are identified where relevant rather than filled in with assumptions.\r"
+    }
+  ]
+}

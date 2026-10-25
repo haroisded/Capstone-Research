@@ -1,0 +1,68 @@
+# Instructions 
+- Visit and Study Each sent Links in "# Links", to gain context 
+  and knowledge in making a Software Architecture Diagram
+- Read "C:\Users\uel36\OneDrive\Desktop\Research Paper\Capstone-Research\Software-Architecture\tech-stack.txt"
+- Read and Check the Format and Structure ( including the diagram ), of...
+  "C:\Users\uel36\OneDrive\Desktop\Research Paper\Capstone-Research\Software-Architecture\02_3.2_Software_Architecture.pdf"
+
+
+# Links 
+
+- Link 1 
+* https://stackify.com/n-tier-architecture/
+
+( related links of Link 1, you must check this as well ):
+
+( Title ):
+N-Tier Architecture Tutorials and Resources
+For more information on n-tier architecture, check out the following resources and tutorials:
+
+( Links ):
+https://msdn.microsoft.com/en-us/library/bb384570.aspx
+http://www.guru99.com/n-tier-architecture-system-concepts-tips.html
+https://www.tutorialspoint.com/software_architecture_design/distributed_architecture.html
+https://dotnetdaily.net/featured/n-tier-architecture-asp-net
+http://www.c-sharpcorner.com/article/n-layered-architecture-using-entity-framework-generic-repository-and-unit-of-wo/
+https://weblogs.asp.net/sukumarraju/creating-n-tier-web-api-application
+http://imar.spaanjaars.com/573/aspnet-n-layered-applications-introduction-part-1
+https://www.tutorialspoint.com/dbms/dbms_architecture.htm
+
+
+- Link 2 
+https://www.guru99.com/n-tier-architecture-system-concepts-tips.html
+
+
+# Goal 
+- The Goal is to create a Software Architecture for my current system,   
+  based on the current stack ( tech-stack.txt )
+
+- The Software Architecture Must STRICTLY adhere to the...
+* Format 
+* Structure 
+* Presentation
+of "C:\Users\uel36\OneDrive\Desktop\Research Paper\Capstone-Research\Software-Architecture\02_3.2_Software_Architecture.pdf"
+
+
+# Problem
+- We can't strictly adhere to the...
+* Format 
+* Structure 
+* Presentation
+of the referenced Software Architecture pdf's "Software Architecture Diagram"
+( because their stack is quite different to ours )
+
+- We First Need to identify how many tiers do we only 
+  need in our current Architecture, before we create OUR
+  Software Architecture.pdf
+
+
+# expected result 
+- we expect to receive a "Merchant-Software_Architecture.pdf", 
+  strictly following the 
+* Format 
+* Structure 
+* Presentation
+of "C:\Users\uel36\OneDrive\Desktop\Research Paper\Capstone-Research\Software-Architecture\02_3.2_Software_Architecture.pdf"
+
+but The Data is Purely Based on our 
+"C:\Users\uel36\OneDrive\Desktop\Research Paper\Capstone-Research\Software-Architecture\tech-stack.txt"

@@ -1,0 +1,1080 @@
+=== PAGE 1 ===
+X3.5-1970 ANSI X3.5-1970 
+r 1 
+American National Standard ‘  _      ' • ' ;  _____- ' A...  ... v'„" 
+Adopted for Use by 
+the Federal Government 
+flowchart symbols 
+(mm) \^'*t S'** Z_| and their usage in 
+FIPS 24 
+See Notice on Inside 
+Front Cover information processing 
+ansi AO. T\' V". ■' t'e'V-VA . > > 
+■ american national standards institute, inc. 
+1430 broadway, new york, new york 10018 
+, 
+
+=== PAGE 2 ===
+This standard was approved as a Federal Information Processing Standard by the 
+Office of Management and Budget on March 19, 1973. 
+Details concerning the use of this standard within the Federal Government are 
+contained in FIPS PUB 24, FLOWCHART SYMBOLS AND THEIR USAGE IN 
+INFORMATION PROCESSING. For a complete list of the publications available 
+in the FEDERAL INFORMATION PROCESSING STANDARDS Series, write to 
+the Office of Technical Information and Publications, National Bureau of Standards, 
+Washington, D.C. 20234. 
+
+=== PAGE 3 ===
+ViQootf Mss *>? St&aM# 
+DEC 7 TO 
+JK MU 
+A % fii ANSI 
+X3.5-1970 
+Revision of 
+USA Standard 
+X3.5-1968 
+American National Standard 
+Flowchart Symbols and Their Usage in 
+Information Processing 
+Sponsor 
+Business Equipment Manufacturers Association 
+Approved September 1, 1970 
+American National Standards Institute, Inc 
+
+=== PAGE 4 ===
+American National Standard 
+An American National Standard implies a consensus of those sub¬ 
+stantially concerned with its scope and provisions. An American National 
+Standard is intended as a guide to aid the manufacturer, the consumer, 
+and the general public. The existence of an American National Standard 
+does not in any respect preclude anyone, whether he has approved the 
+standard or not, from manufacturing, marketing, purchasing, or using 
+products, processes, or procedures not conforming to the standard. 
+American National Standards are subject to periodic review and users 
+are cautioned to obtain the latest editions. 
+CAUTION NOTICE: This American National Standard may be 
+revised or withdrawn at any time. The procedures of the American 
+National Standards Institute require that action be taken to reaffirm, 
+revise, or withdraw this standard no later than five years from the 
+date of publication. Purchasers of American National Standards may 
+receive current information on all standards by calling or writing the 
+American National Standards Institute. 
+The symbols contained in this standard may be copied, reproduced, 
+or employed in any fashion without permission of the Standards 
+Institute. Any statement that the symbols used are in conformance 
+with this American National Standard shall be on the user’s own 
+responsibility. 
+Published by 
+American National Standards Institute, Inc 
+1430 Broadway, New York, New York 10018 
+Copyright © 1971 by American National Standards Institute, Incorporated 
+All rights reserved. 
+No part of this publication may be reproduced in any form, 
+in an electronic retrieval system or otherwise, 
+without the prior written permission of the publisher. 
+Printed in the United States of America 
+
+=== PAGE 5 ===
+Foreword 
+(This Foreword is not a part of American National Standard Flowchart Symbols and Their Usage in Information Pro¬ 
+cessing, X3.5-1970.) 
+The purpose of a flowchart is to improve man-to-man communication relative to the description 
+and analysis of an information processing problem. Flowcharting is a technique in which symbols 
+represent both the sequence of operations and the flow of data and paperwork. 
+The use of flowcharts became widespread in the field of information processing concurrent with 
+the application of electronic computers to problems of business and industry. Occasionally, how¬ 
+ever, the interpretation of a flowchart resulted in misunderstanding. One source of misunderstand¬ 
+ing stemmed from a lack of uniformity of meaning for specific symbols in the flowcharts. 
+The historical development of flowchart symbols has many facets. Initially, groups of individuals 
+in a company coordinated their work on flowcharting. Later, this same need for a uniform set of 
+symbols became apparent to larger groups of persons who exchanged flowcharts, for example, 
+government, commercial and industrial user groups, equipment manufacturers, form suppliers, 
+professional societies, and consultants. Eventually, as each group attempted to establish a uniform 
+set of symbols for its own members, the need for an American National Standard for flowchart 
+symbols was recognized. 
+The American National Standards Committee on Computers and Information Processing, X3, 
+delegated to the Subcommittee on Problem Definition and Analysis, X3-6, the responsibility for 
+preparing a standard for flowchart symbols and their usage. In meeting this obligation, the X3-6 
+Subcommittee: 
+(1) Identified and analyzed the information processing functions to be flowcharted. 
+(2) Obtained and studied sets of symbols from organizations. 
+(3) Performed a statistical study on the definitions and the symbols representing those functions. 
+(4) Obtained copies of flowcharting conventions from contributing organizations. 
+(5) Analyzed the material received to determine the types of conventions used and the extent to 
+which these conventions find common application. 
+(6) Circulated the results to a representative audience for comment. 
+(7) Developed and recommended a standard for flowchart symbols and their usage for informa¬ 
+tion processing problem definition. 
+American National Standard X3.5-1970 is an expansion of X3.5-1968, which was itself a 
+revision of a 1966 standard on the subject. The symbol shapes contained in X3.5-1968 are 
+unchanged; however, several definitions and names have been modified slightly so that they 
+conform exactly to Flowchart Symbols for Information Processing, ISO Recommendation 
+R 1028-1969 (Geneva: International Organization for Standardization, March 1969, 1st edition). 
+In addition to several clarifying remarks that have been added, this standard contains 
+thirteen additional symbols and their definitions. 
+Suggestions for improvement gained in the use of this standard will be welcome. They should be 
+sent to the American National Standards Institute, 1430 Broadway, New York, N.Y. 10018. 
+At the time it approved this standard, the X3 Committee had the following members: 
+Charles A. Phillips, Chairman Alexander C. Grove, Secretaryj- 
+Organization Represented Name of Representative 
+Administrative Management Society 
+Air Transport Association 
+American Bankers Association 
+American Gas Association 
+American Institute of Certified Public Accountants 
+American Library Association 
+American National Standards Committee on Office Machines, X4 (Liaison) 
+American Newspaper Publishers Association 
+American Petroleum Institute 
+American Society of Mechanical Engineers C. S. Everhardt 
+Frank C. White 
+John C. Houhoulis 
+Joseph A. Pinnola 
+Noel Zakin 
+David L. Weisbrod 
+C. E. Ginderf 
+W. D. Rinehart 
+F. A. Gitzendanner 
+George C. Finster 
+t Deceased. 
+
+=== PAGE 6 ===
+Organization Represented Name of Representative 
+Association of American Railroads 
+Association for Computing Machinery 
+Association for Educational Data Systems 
+Business Equipment Manufacturers Association 
+Data Processing Management Association 
+Edison Electric Institute 
+Electronic Industries Association 
+General Services Administration 
+Insurance Accounting and Statistical Association 
+International Communications Association 
+Institute of Electrical and Electronics Engineers 
+Joint Users Group 
+Life Office Management Association 
+National Bureau of Standards 
+National Machine Tool Builders Association 
+National Retail Merchants Association 
+Printing Industries of America 
+Scientific Apparatus Makers Association 
+System and Procedures Association 
+Telephone Group 
+U.S. Department of Defense R. A. Petrash 
+John A. N. Lee 
+J. J. Fast, Jr 
+Larry Avanzino 
+R. W. Berner 
+T. H. Bonn 
+A. C. Brown 
+Stanley Buckland 
+D. J. Daugherty 
+U. S. C. Dilks 
+Stanley Erdreich 
+R. W. Green 
+W. S. Humphrey 
+R. J. LaManna 
+R. J. Mindlin 
+Glen Poorte 
+Donald J. Reyen 
+Donald MacPherson 
+H. D. Limmer 
+Howard H. Smith 
+Delbert Shoemaker 
+William Bregartner 
+Charles L. Hutchinson 
+G. W. Patterson 
+Theodore Wiese 
+Edwin L. Luippold 
+J. O. Harrison 
+Arnold F. Griswold 
+Ethel Langtry 
+Lawrence Chvany 
+H. T. Hoffman 
+E. Tomeski 
+V. N. Vaughan, Jr 
+Robert A. Raup 
+The members of the Subcommittee on Problem Definition and Analysis, X3-6, which was respon¬ 
+sible for the development of this revision, were as follows: 
+C. D. Christensen, Chairman 
+W. L. Bryan 
+J. R. Crawford 
+M. Grems 
+F. D. Heiss, Jr 
+M. F. Hill 
+C. J. Lyons 
+D. Mace 
+H D. Mayo Ill 
+C. T. Meadow 
+W. D. Morgan 
+J. W. Young 
+Others who contributed: J. N. Ridgell 
+L. W. Smith 
+C. R. Shoch 
+J. G. Solomon 
+R. Strausberg 
+W. B. Swift 
+C.K. Vanderhoof 
+R. P. Wenig 
+J. F. Wood 
+W. C. Worrell 
+R. H. Allen 
+R. E. Bidigare 
+N. Brown 
+P. Brown 
+P. G. Charest 
+C. Chronis 
+W. Corey 
+J. L. Donaldson 
+J. W. Dresch 
+D. Drusdow 
+W. Dunsky 
+M. Ford H. Gammon 
+R. Green 
+A. Hassan 
+M. Hawes 
+J. E. Heskin 
+R. Hutchinson 
+E. Kerksieck 
+J. Maroney 
+M. Michiche 
+D. J. Nailor 
+J. E. O’Hara, Jr 
+R.G. Peacock 
+J. Pfaff D. Prigge 
+J. W. Purvis 
+R. A. Raup 
+R. F. Rodgers 
+R. J. Rossheim 
+W. Robergs 
+J. E. Seeley 
+S. R.Shugar 
+A. Strasser 
+O. Tidwell 
+R. E. Utman 
+J. Wood 
+
+=== PAGE 7 ===
+Contents 
+SECTION P AO E 
+1. Purpose and Scope ~ 
+1.1 Purpose . ~ 
+1.2 Scope . ~ 
+2. Definitions . ~ 
+3. Flowchart Symbols 8 
+3.1 Symbols Represent Functions 8 
+3.2 Basic Symbols . * 
+3.2.1 Input/Output Symbol 8 
+3.2.2 Process Symbol 8 
+3.2.3 Flowline Symbol 8 
+3.2.3.1 Crossing of Flowlines. 9 
+3.2.3.2 Junction of Flowlines 9 
+3.2.4 Comment, Annotation Symbol 9 
+3.3 Specialized Symbols 9 
+3.3.1 In put/Out put Symbols 9 
+3.3.1.1 Punched Card Symbol 9 
+3.3.1.1.1 Specialized Punched Card Symbols 9 
+3.3.1.2 Online Storage Symbol 9 
+3.3.1.3 Magnetic Tape Symbol 10 
+3.3.1.4 Punched Tape Symbol 10 
+3.3.1.5 Magnetic Drum Symbol 10 
+3.3.1.6 Magnetic Disk Symbol 10 
+3.3.1.7 Core Symbol 10 
+3.3.1.8 Document Symbol 10 
+3.3.1.9 Manual Input Symbol 10 
+3.3.1.10 Display Symbol 10 
+3.3.1.11 Communication Link Symbol 10 
+3.3.1.12 Offline Storage Symbol 10 
+3.3.2 Specialized Process Symbols 10 
+3.3.2.1 Decision Symbol 10 
+3.3.2.2 Predefined Process Symbol 11 
+3.3.2.3 Preparation Symbol 11 
+3.3.2.4 Manual Operation Symbol 11 
+3.3.2.5 Auxiliary Operation Symbol 11 
+3.3.2.6 Merge Symbol 1 1 
+3.3.2.7 Extract Symbol 11 
+3.3.2.8 Sort Symbol 11 
+3.3.2.9 Collate Symbol 11 
+3.4 Additional Symbols I 1 
+3.4.1 Connector Symbol 11 
+3.4.2 Terminal, Interrupt Symbol 12 
+3.4.3 Parallel Mode Symbol 12 
+1. Symbol Csein Flowcharting. 1 2 
+1.1 Symbol .Shape . 12 
+4.2 Symbol Size 12 
+4.3 Symbol Orientation 12 
+4.4 Flow Direction 12 
+1.4.1 Flowline . 1 2 
+4.4.2 Communication Link 12 
+
+=== PAGE 8 ===
+SECTION PAGE 
+4.5 Flowchart Text 
+4.6 Symbol Identification 12 
+4.7 Symbol Cross Reference 13 
+4.8 Connector Referencing. 13 
+4.8.1 Connector Common Identification . 13 
+4.8.2 Cross Referencing Connectors. 13 
+4.9 Symbol Striping . 13 
+4.9.1 Striped Symbol . 13 
+4.9.2 First Symbol of Detailed Representation 13 
+4.9.3 Cross Referencing of Striped Symbol and Detailed Representation 13 
+4.10 Multiple Exits . 13 
+4.10.1 Symbol Exits 13 
+4.10.2 Multiple Logic Paths . 14 
+4.11 Branching Table . 14 
+4.12 Repetitive Representation of the Same Media 14 
+4.12.1 Multiple Symbols. 14 
+4.12.2 Overlay Pattern 14 
+4.12.3 Priority Representation 14 
+4.12.4 Flowlines with Repetitive Symbols . 14 
+5. Summary of Flowchart Symbols. 15 
+Appendix. International Considerations. 17 
+
+=== PAGE 9 ===
+American National Standard 
+Flowchart Symbols and Their Usage in 
+Information Processing 
+1. Purpose and Scope 
+1.1 Purpose. The purpose of this standard is 
+to establish flowchart symbols and their usage 
+in the preparation of flowcharts for informa¬ 
+tion processing systems, including automatic 
+data processing systems. 
+1.2 Scope. This standard prescribes and de¬ 
+fines flowchart symbols to represent the se¬ 
+quence of operations, the flow of data, and the 
+flow of paperwork on flowcharts for informa¬ 
+tion processing; prescribes presentation tech¬ 
+niques for flowchart symbols on flowcharts; 
+and prescribes and defines the use of flowchart 
+symbols for the following: flowchart text, sym¬ 
+bol identification, symbol cross reference, con¬ 
+nector referencing, symbol striping, multiple 
+exits, branching table, and repetitive repre¬ 
+sentation of the same media. 
+This standard does not cover pictorial-type 
+flowcharts that utilize pictures or drawings to 
+depict a system. 
+2. Definitions 
+analysis. The methodical investigation of a 
+problem, and the separation of the problem 
+into smaller related units for further detailed 
+study. 
+annotation. An added descriptive comment 
+or explanatory note. 
+auxiliary operation. An offline operation per¬ 
+formed by equipment not under control of the 
+central processing unit. 
+bidirectional flow. In flowcharting, flow that 
+can be extended over the same flowline in 
+either direction. 
+central processing unit. A unit of a computer 
+that includes the circuits controlling the inter¬ 
+pretation and execution of instructions, 
+communication link. The physical means of 
+connecting one location to another for the 
+purpose of transmitting and receiving informa¬ 
+tion. connector. A means of representing on a flow¬ 
+chart a break in a line of flow, 
+data. Any representations such as characters 
+or analog quantities to which meaning is or 
+might be assigned. 
+decision. A determination of a future action, 
+display. A visual presentation of data. 
+document. (1) A medium and the data recorded 
+on it for human use, for example, a report 
+sheet, a book. (2) By extension, any record 
+that has permanence and that can be read by 
+man or machine. 
+flowchart. A graphical representation of the 
+definition, analysis, or solution of a problem 
+in which symbols are used to represent opera¬ 
+tions, data, flow, equipment, and so forth. 
+flowchart text. The descriptive information 
+that is associated with flowchart symbols. 
+flow direction function. The function of link¬ 
+ing symbols. The indicating of the sequence of 
+available information and executable opera¬ 
+tions. 
+flowline. On a flowchart, a line representing 
+a connecting path between flowchart symbols; 
+a line to indicate a transfer of data or control, 
+function. A specific purpose of an entity or its 
+characteristic action. 
+inconnector. A connector that indicates a con¬ 
+tinuation of a broken flowline. 
+information. The meaning that a human 
+assigns to data by means of the known con¬ 
+ventions used in its representation. 
+information processing. The execution of a 
+systematic sequence of operations performed 
+upon data. 
+input/output function. The making available 
+of information for processing (input) or the 
+recording of the processed information (out¬ 
+put). 
+I/O. An abbreviation for input/output. (See 
+input/output function.) 
+magnetic tape. (1) A tape with a magnetic sur¬ 
+face on which data can be stored by selective 
+7 
+
+=== PAGE 10 ===
+X3.5 AMERICAN NATIONAL STANDARD FLOWCHART SYMBOLS 
+polarization of portions of the surface. (2) A 
+tape of magnetic material used as the constitu¬ 
+ent in some forms of magnetic cores. 
+manual input. (1) The entry of data by hand 
+into a device at the time of processing. (2) The 
+data entered as in (1). 
+medium. The material or configuration there¬ 
+of on which data is recorded; for example, 
+paper tape, cards, magnetic tape, 
+normal direction flow. A flow in a direction 
+from left to right or top to bottom on a flow¬ 
+chart. 
+offline storage. Storage not under control 
+of the central processing unit, 
+online storage. Storage under control of the 
+central processing unit. 
+operation. The event or specific action per¬ 
+formed by a logic element, 
+oufconnector. A connector that indicates a 
+point at which a flowline is broken for a con¬ 
+tinuation at another point. 
+problem definition. A term associated with 
+both the statement and solution phase of a 
+problem and used to denote the transforma¬ 
+tions of data and the relationship of pro¬ 
+cedures, data, constraints, environments, and 
+so forth. 
+process function. The process of executing a 
+defined operation or group of operations. 
+processing. A term including any operation 
+or combination of operations on data, where 
+an operation is the execution of a defined 
+action. 
+punched card. (1) A card punched with a pat¬ 
+tern of holes to represent data. (2) A card as 
+in (1) before being punched. 
+punched tape. A tape on which a pattern of 
+holes or cuts is used to represent data, 
+represent. To use one or more characters or 
+symbols to depict a well-defined concept. 
+reverse direction flow. In flowcharting, a flow 
+in a direction other than left to right or top 
+to bottom. 
+striping. The use of a line across the upper 
+part of a flowchart symbol to signify that a 
+detailed representation of a function is located 
+elsewhere in the same set of flowcharts, 
+symbol. A representation of something by 
+reason of relationship, association, or con¬ 
+vention. system. An organized collection of men, ma¬ 
+chines, and methods required to accomplish 
+a specific objective. 
+terminal. A point in a system or communica¬ 
+tion network at which information can either 
+enter or leave. 
+transmit. To send data from one location and 
+to receive the data at another location. 
+3. Flowchart Symbols 
+3.1 Symbols Represent Functions. Symbols 
+are used on a flowchart to represent the func¬ 
+tions of an information processing system. 
+These functions are input/output, processing, 
+flow direction, and annotation. 
+A basic symbol is established for each func¬ 
+tion and can always be used to represent that 
+function. Specialized symbols are established 
+which may be used in place of a basic symbol 
+to give additional information. 
+The size of each symbol may vary but the 
+dimensional ratio of each symbol shall be main¬ 
+tained. 
+3.2 Basic Symbols 
+3.2.1 Input/Output Symbol. The symbol 
+shown below represents an input/output func¬ 
+tion (I/O), that is, the making available of in¬ 
+formation for processing (input), or the record¬ 
+ing of processed information (output). 
+/ / Dimensional Ratio 
+/ / Wld+h:Helgh+ = 1:2/3 
+3.2.2 Process Symbol. The symbol shown 
+below represents any kind of processing func¬ 
+tion; for example, the process of executing a 
+defined operation or group of operations re¬ 
+sulting in a change in value, form, or location 
+of information, or in the determination of 
+which of several flow directions are to be fol¬ 
+lowed. 
+Dimensional Ratio 
+Width:Height = 1:2/3 
+3.2.3 Flowline Symbol. The symbol shown 
+below represents the function of linking sym- 
+
+=== PAGE 11 ===
+AND THEIR USAGE IN INFORMATION PROCESSING X3.5 
+bols. It indicates the sequence of available 
+information and executable operations. 
+Flow direction is described in detail in 4.4.1. 
+3.2.3.1 Crossing of Flowlines. Flowlines 
+may cross; this means they have no logical 
+interrelation. 
+Example: 
+3.2.3.2 Junction of Flowlines. Two or 
+more incoming flowlines may join with one 
+outgoing flowline. 
+Example: 3.3 Specialized Symbols 
+3.3.1 Input/Output Symbols. Specialized 
+I/O Symbols may represent the I/O function 
+and, in addition, denote the medium on which 
+the information is recorded or the manner of 
+handling the information or both. If no special¬ 
+ized symbol exists, the basic I/O symbol is 
+used. 
+3.3.1.1 Punched Card Symbol. The symbol 
+shown below represents an I/O function in 
+which the medium is punched cards, including 
+mark sense cards, partial cards, stub cards, 
+mark scan cards, deck of cards, file of cards, 
+and so forth. 
+Dimensional Ratio 
+Wld+h:Helght = 1:1/2 
+3.3.1.1.1 Specialized Punched Card 
+Symbols. The following symbols may be used 
+to represent a deck of cards or a file of cards. 
+(1) Deck of Cards Symbol. The symbol 
+shown below represents a collection of punched 
+cards. 
+Every flowline entering and leaving a junc¬ 
+tion should have arrowheads near the junction 
+point. 
+Example: Dimensional Ratio 
+Wldth:He!ght = 5/4:2/3 
+3.2.4 Comment, Annotation Symbol. The 
+symbol shown below represents the annota¬ 
+tion function, that is, the addition of descrip¬ 
+tive comments or explanatory notes as clari¬ 
+fication. The broken line is connected to any 
+symbol at a point where the annotation is 
+meaningful by extending the broken line in 
+whatever fashion is appropriate. (2) File of Cards Symbol. The symbol shown 
+below represents a collection of related 
+punched card records. 
+Dimensional Ratio 
+Wldth:HeIght = 5/4:2/3 
+3.3.1.2 Online Storage Symbol. The sym¬ 
+bol shown below represents an I/O function 
+utilizing any type of online storage, for ex¬ 
+ample, magnetic tape, magnetic drum, mag¬ 
+netic disk. 
+Dimensional Ratio 
+Width:Height = 1:2/3 Dimensional Ratio 
+Wldth;He Ight = 1:2/3 
+9 
+
+=== PAGE 12 ===
+X3.5 AMERICAN NATIONAL STANDARD FLOWCHART SYMBOLS 
+3.3.1.3 Magnetic Tape Symbol. The sym¬ 
+bol shown below represents an I/O function 
+in which the medium is magnetic tape. 
+Dimensional Ratio 
+Wid+h:Height = 1:1 
+3.3.1.4 Punched Tape Symbol. The sym¬ 
+bol shown below represents an I/O function 
+in which the medium is punched tape. 
+Dimensional Ratio 
+Width:Height = 1:1/2 
+3.3.1.5 Magnetic Drum Symbol. The sym¬ 
+bol shown below represents an I/O function 
+in which the medium is magnetic drum. 
+Dimensional Ratio 
+WIdth:Height = 5/4:2/3 
+3.3.1.6 Magnetic Disk Symbol. The sym¬ 
+bol shown below represents an I/O function 
+in which the medium is magnetic disk. 
+Dimensional Ratio 
+Width:Height = 2/3:5/4 
+3.3.1.7 Core Symbol. The symbol shown 
+below represents an I/O function in which 
+the medium is magnetic core. 3.3.1.9 Manual Input Symbol. The sym¬ 
+bol shown below represents an input function 
+in which the information is entered manually 
+at the time of processing; for example, by 
+means of online keyboards, switch settings, 
+push buttons. 
+Dimensional Ratio 
+Width:Height = 1:1/2 
+3.3.1.10 Display Symbol. The symbol 
+shown below represents an I/O function in 
+which the information is displayed for human 
+use at the time of processing, by means of on¬ 
+line indicators, video devices, console printers, 
+plotters, and so forth. 
+Dimensional Ratio 
+WI dth:Height = I:2/3 
+3.3.1.11 Communication Link Symbol. 
+The symbol shown below represents a func¬ 
+tion in which information is transmitted by 
+a telecommunication link. 
+1/1 
+Communication link flow direction is de¬ 
+scribed in detail in 4.4.2. 
+3.3.1.12 Offline Storage Symbol. The sym¬ 
+bol shown below represents the function of 
+storing information offline, regardless of the 
+medium on which the information is recorded. 
+Dimensional Ratio 
+Width:Height = 1:1 Dimensional Ratio 
+Width:Height = I:0.866 
+(Equilateral) 
+3.3.1.8 Document Symbol. The symbol 
+shown below represents an I/O function in 
+which the medium is a document. 
+Dimensional Ratio 
+W!dth:Height = I:2/3 3.3.2 Specialized Process Symbols. Special¬ 
+ized process symbols may represent the pro¬ 
+cessing function and, in addition, identify the 
+specific type of operation to be performed on 
+the information. If no specialized symbol 
+exists, the basic process symbol is used. 
+3.3.2.1 Decision Symbol. The symbol 
+shown below represents a decision or switch- 
+10 
+
+=== PAGE 13 ===
+AND THEIR USAGE IN INFORMATION PROCESSING X3.5 
+ing-type operation that determines which of 
+a number of alternative paths is to be followed. 
+Dimensional Ratio 
+Wld+h:Height = I:2/3 3.3.2.6 Merge Symbol. The symbol shown 
+below represents the combining of two or more 
+sets of items into one set. 
+Dimensional Ratio 
+Width:Height = I:0.866 
+(EquiIateraI) 
+3.3.2.2 Predefined Process Symbol. The 
+symbol shown below represents a named pro¬ 
+cess consisting of one or more operations or 
+program steps that are specified elsewhere, 
+for example, subroutine or logical unit. Else¬ 
+where means not this set of flowcharts. 
+Dimensional Ratio 
+Width:Helght = I:2/3 
+3.3.2.3 Preparation Symbol. The symbol 
+shown below represents modification of an in¬ 
+struction or group of instructions which 
+change the program itself, for example, set 
+a switch, modify an index register, and initial¬ 
+ize a routine. 3.3.2.7 Extract Symbol. The symbol shown 
+below represents the removal of one or more 
+specific sets of items from a single set of items. 
+Dimensional Ratio 
+Width:Helght = 1:0.866 
+(Equ i I atera I ) 
+3.3.2.8 Sort Symbol. The symbol shown 
+below represents the arranging of a set of items 
+into a particular sequence. 
+Dimensional Ratio 
+WIdth:Height = 1:1.732 
+Dimensional Ratio 
+Width:Height = 1:2/3 
+3.3.2.4 Manual Operation Symbol. The 
+symbol shown below represents any offline 
+process geared to the speed of a human being, 
+without using mechanical aid. 
+Dimensional Ratio 
+WIdth:Height = I :2/3 3.3.2.9 Collate Symbol. The symbol shown 
+below represents merging with extracting, 
+that is, the formation of two or more sets of 
+items from two or more other sets. 
+Dimensional Ratio 
+Width:Height =1:1.732 
+3.3.2.5 Auxiliary Operation Symbol. The 
+symbol shown below represents an offline 
+operation performed on equipment not under 
+direct control of the central processing unit. 
+Dimensional Ratio 
+WIdth:Height =1:1 3.4 Additional Symbols 
+3.4.1 Connector Symbol. The symbol shown 
+below represents an exit to or an entry from 
+another part of the flowchart. It is a junction 
+in a line of flow. A set of two connectors is 
+used to represent a continued flow direction 
+when the flow is broken by any limitation of 
+the flowchart. A set of two or more connectors 
+is used to represent the junction of several 
+
+=== PAGE 14 ===
+X3.5 AMERICAN NATIONAL STANDARD FLOWCHART SYMBOLS 
+flowlines with one flowline, or the junction of 
+one flowline with one of several alternate flow¬ 
+lines. 
+O Dimensional Ratio 
+Width:Height =1:1 
+3.4.2 Terminal, Interrupt Symbol. The sym¬ 
+bol shown below represents a terminal point 
+in a flowchart, for example, start, stop, halt, 
+delay, or interrupt. 
+N Dimensional Ratio 
+_/ Width:Height = 1:3/8 
+3.4.3 Parallel Mode Symbol. The symbol 
+shown below represents the beginning or end 
+of two or more simultaneous operations. 4.3 Symbol Orientation. The orientation of 
+each symbol on a flowchart should be the same 
+as shown in Section 3, Flowchart Symbols. 
+4.4 Flow Direction. Flow direction is repre¬ 
+sented by lines drawn between symbols. 
+4.4.1 Flowline. Normal direction of flow is 
+from left to right and top to bottom. When the 
+flow direction is not left to right or top to bot¬ 
+tom, open arrowheads shall be placed on re¬ 
+verse-direction flowlines. When increased 
+clarity is desired, open arrowheads can be 
+placed on normal-direction flowlines. When 
+flowlines are broken due to page limitation, 
+connector symbols shall be used to indicate 
+the break. When flow is bidirectional, it can 
+be shown by either single or double lines, but 
+open arrowheads shall be used to indicate 
+both normal-direction flow and reverse-direc¬ 
+tion flow. 
+V V V Left to Right 
+VV \K\/ 
+4. Symbol Use in Flowcharting > 
+Right to Left 
+-<- V Top to 
+Bottom A 
+Bottom to 
+Top 
+4.1 Symbol Shape. The actual shapes of the 
+symbols used should conform closely enough 
+to those shown to preserve the characteristics 
+of the symbol. The curvature of the lines and 
+the angles formed by the lines may vary 
+slightly from those shown in this standard so 
+long as the shapes retain their uniqueness. 
+4.2 Symbol Size. Flowchart symbols are dis¬ 
+tinguished on the basis of shape, proportion, 
+and size in relation to other symbols. Propor¬ 
+tion of a given symbol is defined by the rec¬ 
+tangle in which that symbol can be inscribed. 
+Dimension and relative size of these rectangles 
+are given with each symbol by a pair of num¬ 
+bers (width: height). 
+The size of each symbol may vary, but the 
+dimensional ratio of each symbol shall be main¬ 
+tained. 
+Flowchart symbols are formed by straight 
+and curved line segments. When prepared auto¬ 
+matically by machine, they may be formed by 
+patterns of successively printed graphic sym¬ 
+bols (asterisks, periods, and so forth) which 
+exhibit the characteristic shapes. 4.4.2 Communication Link. Unless other¬ 
+wise indicated, the direction of communication 
+link flow is left to right and top to bottom. 
+Open arrowheads are necessary on symbols 
+for which the flow opposes the above conven¬ 
+tion. An open arrowhead may also be used on 
+any line whenever increased clarity will result. 
+<- 
+■< V € 
+A A 
+/i 
+V 
+4.5 Flowchart Text. Descriptive information 
+with each symbol shall be presented so as to 
+read from left to right and top to bottom 
+regardless of the flow direction. 
+4.6 Symbol Identification. (See Appendix.) 
+The identifying notation assigned to a symbol, 
+other than a connector, shall be placed above 
+12 
+
+=== PAGE 15 ===
+AND THEIR USAGE IN INFORMATION PROCESSING X3.5 
+the symbol and to the right of its vertical bi¬ 
+sector. 
+4.7 Symbol Cross Reference. (See Appendix.) 
+Identifying notation (s) of other elements of 
+documentation (including this set of flow¬ 
+charts) shall be placed above the symbol and 
+to the left of its vertical bisector. 
+4.8 Connector Referencing 
+4.8.1 Connector Common Identification. 
+A common identifier, such as an alphabetic 
+character, number, or mnemonic label, is 
+placed within the outconnector and its associ¬ 
+ated inconnector. 
+Outconnector Inconnector 
+4.8.2 Cross Referencing Connectors. (See 
+Appendix.) Additional cross referencing be¬ 
+tween associated connectors is achieved by 
+placing the chart page(s), coordinates, or 
+other identifier(s) of the associated connec¬ 
+tors above and to the left of the vertical bi¬ 
+sector of each connector. 
+Outconnector Inconnector 
+2 
+Chart page 2 Chart page 10 
+4.9 Symbol Striping. Striping is a means of 
+indicating that a more detailed representation 
+of a function is to be found elsewhere in the 
+same set of flowcharts. This representation 
+differs from a predefined process symbol which need not be represented in detail in the 
+same set of flowcharts. 
+4.9.1 Striped Symbol. A horizontal line is 
+drawn within, completely across, and near the 
+top of the symbol, and a reference to the de¬ 
+tailed representation is placed between that 
+line and the top of the symbol. 
+4.9.2 First Symbol of Detailed Representa¬ 
+tion. The terminal symbol shall be used as the 
+first and last symbols of the detailed repre¬ 
+sentation. The first terminal symbol contains 
+an identification which also appears in the 
+striped symbol, as indicated in 4.9.1. 
+4.9.3 Cross Referencing of Striped Symbol 
+and Detailed Representation. (See Appendix.) 
+A reference to the location of the detailed 
+representation within the flowchart is placed 
+above and to the left of the vertical bisector 
+of the striped symbol. A reference to the 
+striped symbol is placed above and to the left 
+of the vertical bisector of its associated ter¬ 
+minal symbol. 
+Example: Striped Symbol and Detailed Rep¬ 
+resentation 
+Striped Symbol Detailed Representation 
+^Striped Symbol on page i 
+1 
+- (Z*D 
+-»— 
+-VMM— detailed representation 
+\ on page 10 
+Chart page 1 
+4.10 Multiple Exits 
+4.10.1 Symbol Exits. Multiple exits from a 
+symbol shall be shown by several flowlines 
+from the symbol to other symbols or by a single 
+flowline from the symbol which branches into 
+the appropriate number of flowlines. 
+13 
+
+=== PAGE 16 ===
+X3.5 AMERICAN NATIONAL STANDARD FLOWCHART SYMBOLS 
+4.10.2 Multiple Logic Paths. Each exit from 
+a symbol shall be identified to show the logic 
+path which it represents. The logic paths may 
+be represented by a table that indicates their 
+associated conditions and the inconnector ref¬ 
+erences. 
+Conditions 
+Reference 
+— 1 -- 004A3 
+— 2 -- 00A51 
+— 3 -- 006A2 
+— 4 -- 007A1 
+— S -- 006A2 
+— Other - 007A1 
+4.11 Branching Table. A branching table 
+may be used in lieu of a decision symbol to 
+depict a decision function. The table is com¬ 
+posed of a statement of the decision to be made, 
+a list of the conditions which can occur, and 
+the path to be followed for each condition. The 
+terms “Decision Statement" and “Paths” are 
+not part of the standard. The “GO TO” section 
+contains either an inconnector reference or 
+a single flowline exiting to another symbol. 
+Examples of branching table formats are 
+shown below. 
+CODE 
+EQUAL TO 2 
+GO TO Inconn. 
+Ref erei 3 
+Inconnector 
+Reference 
+\ / 
+CODE 
+EQUAL TO GO TO Paths 
+-> 1 
+2 Inconnector 
+Reference 
+3 Inconnector 
+Reference 
+- 
+4.12 Repetitive Representation of the Same 
+Media 
+4.12.1 Multiple Symbols. As an alternative 
+to a single symbol with appropriate text, the same input/output symbols may be shown in 
+an overlay pattern to illustrate the use or crea¬ 
+tion of multiple media or files, for example, 
+number of copies, types of printed reports, 
+types of punched card formats, multiple mag¬ 
+netic tape reels. 
+WESTERN 
+| CEtffRAT 
+EASTERN 
+ACTIVITY 
+Reports 
+4.12.2 Overlay Pattern. The overlay pattern 
+must be drawn from front to back with the 
+first symbol as the entire I/O symbol. The 
+center line of the second symbol must be off¬ 
+set up or down from the horizontal center 
+line and to the right or left of the vertical cen¬ 
+ter line of the first symbol. Similarly, the third 
+symbol must be offset in the same direction 
+from the second symbol; the fourth from the 
+third; and so on for any remaining symbols. 
+4.12.3 Priority Representation. When the 
+multiple symbols represent an ordered set, 
+the ordering shall be from front (first) to 
+back (last). 
+4.12.4 Flowlines with Repetitive Symbols. 
+Flowlines may enter or leave from any point 
+on the overlay symbols. The priority or se¬ 
+quential order of the multiple symbols (as 
+outlined in 4.12.3) is not altered by the point 
+at which the flowline(s) enters or leaves. 
+14 
+
+=== PAGE 17 ===
+AND THEIR USAGE IN INFORMATION PROCESSING X3.5 
+5. Summary of Flowchart Symbols 
+Basic Symbols 
+Input/Output Process Flowline 
+/ > 
+Crossing of 
+Flowlines Junction of 
+Flowlines Annotation, Comment 
+Specialized Input/Output Symbols 
+Punched Card 
+Deck of Cards 
+File of Cards 
+Online Storage 
+Magnetic Tape 
+Punched Tape 
+Magnetic Drum Magnetic Disk 
+Core 
+Document 
+Manual Input 
+Display 
+Communication 
+Link 
+Offline Storage 
+15 
+
+=== PAGE 18 ===
+X3.5 
+Specialized Process Symbols 
+Decision Auxiliary 
+Operation 
+Predefined 
+Process Merge 
+Preparation Extract 
+Manual 
+Operation Sort 
+Collate 
+Additional Symbols 
+Connector Terminal CD 
+Parallel Mode 
+16 
+
+=== PAGE 19 ===
+X3.5 
+Appendix 
+(This Appendix is not part of American National Standard Flowchart Symbols and Their Usage in Information 
+Processing, X3.5-1970, but is included for information purposes only. 
+International Considerations 
+At its meeting of June 7, 1968, in Amsterdam, ISO/TC 97/SC 7 agreed to a set of flowchart sym¬ 
+bol conventions based on the American National Standard. A First Draft Proposal, Use of Flow¬ 
+chart Symbols in Flowcharting, ISO/TC 97/SC 7 (Secretariat-25) 56 was prepared. Based on the 
+report of the U.S. delegates to the SC 7 meeting, it is felt that there may be a conflict between sec¬ 
+tions 4.6, 4.7, 4.8.2, and 4.9.3 of this American National Standard and the SC 7 First Draft Pro¬ 
+posal. The applicable sections of the ISO First Draft Proposal are as follows. 
+3. Identification of Symbols 
+(Other than Flowchart Text) 
+3.1 Symbol Name. This is a symbol identifier, 
+always of a predetermined maximum number 
+of characters, which identifies the symbol for 
+reference purposes (for example, to a program 
+listing) and which shall be placed above and to 
+the left of the symbol as shown. 
+XXX...X YYY. . .Y 3.2 Symbol Description. This is any other 
+information (for example, for description, 
+elaboration, or other cross-referencing, to 
+provide improved understanding of the func¬ 
+tion of that part of the system) which, being 
+generally of an undetermined number of 
+characters, shall be placed above and to the 
+right of the symbol as shown. 
+V xxxxxxxxxxx... xxxxx... 
+17 
+
+=== PAGE 20 ===
+
+
+=== PAGE 21 ===
+n 
+
+=== PAGE 22 ===
+) 
+
+=== PAGE 23 ===
+
+
+=== PAGE 24 ===
+American National Standards 
+on Computers 
+and Information Processing 
+X3.1-1969 Synchronous Signaling Rates for Data Transmission X3.21-1967 Rectangular Holes in Twelve-Row Punched Cards 
+X3.2-1970 Print Specifications for Magnetic Ink Character 
+Recognition X3.22-1973 Recorded Magnetic Tape for Information Inter¬ 
+change (800 CPI, NRZI) 
+X3.3-1970 Bank Check Specifications for Magnetic Ink Char¬ 
+acter Recognition X3.23-1968 COBOL 
+X3.24-1968 Signal Quality at Interface Between Data Proces¬ 
+X3.4-1968 Code for Information Interchange sing Terminal Equipment and Synchronous Data Communica¬ 
+tion Equipment for Serial Data Transmission 
+X3.5-1970 Flowchart Symbols and Their Usage in Information 
+Processing X3.25-1968 Character Structure and Character Parity Sense 
+for Parallel-by-Bit Communication in the American National 
+X3.6-1965 Perforated Tape Code for Information Interchange Standard Code for Information Interchange 
+X3.9-1966 FORTRAN X3.26-1970 Hollerith Punched Card Code 
+X3.10-1966 Basic FORTRAN X3.27-1969 Magnetic Tape Labels for Information Inter¬ 
+X3.11-1969 Specifications for General Purpose Paper Cards for 
+Information Processing change 
+X3.28-1971 Procedures for the Use of the Communication 
+Control Characters of American National Standard Code for 
+X3.12-1970 Vocabulary for Information Processing Information Interchange in Specified Data Communication 
+Links 
+X3.14-1973 Recorded Magnetic Tape for Information Inter¬ 
+change (200 CPI, NRZI) X3.29-1971 Specifications for Properties of Unpunched Oiled 
+Paper Perforator Tape 
+X3.15-1966 Bit Sequencing of the American National Standard 
+Code for Information Interchange in Serial-by-Bit Data Trans¬ 
+mission X3.30-1971 Representation for Calendar Date and Ordinal 
+Date for Information Interchange 
+X3.16-1966 Character Structure and Character Parity Sense for 
+Serial-by-Bit Data Communication in the American National 
+Standard Code for Information Interchange X3.31-1973 Structure for the Identification of the Counties 
+of the United States for Information Interchange 
+X3.34-1972 Interchange Rolls of Perforated Tape for Infor¬ 
+X3.17-1966 Character Set for Optical Character Recognition mation Interchange 
+X3.18-1967 One-Inch Perforated Paper Tape for Information 
+Interchange X3.38-1972 Identification of States of the United States (In¬ 
+cluding the District of Columbia) for Information Interchange 
+X3.19-1967 Eleven-Sixteenths Inch Perforated Paper Tape for 
+Information Interchange X3.39-1973 Recorded Magnetic Tape for Information Inter¬ 
+change (1600 CPI, PE) 
+X3.20-1967 Take-Up Reels for One-Inch Perforated Tape for 
+Information Interchange X3.40-1973 Unrecorded Magnetic Tape for Information Inter¬ 
+change (9-Track 200 and 800 CPI, NRZI, and 1600 CPI, PE) 
+For a free and complete list of all American National Standards, write 
+American National Standards Institute, Inc 
+1430 Broadway 
+New York, N.Y. 10018 
